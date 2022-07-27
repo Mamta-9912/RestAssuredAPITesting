@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EmployeesRestAPISuite]">
+  <listeners>
+    <listener class-name="com.employeeapi.utilities.Listners"/>
+  </listeners>
+  <test thread-count="5" name="EmployeesRestAPISuite(failed)">
+    <classes>
+      <class name="com.employeeapi.testCases.TC001_Get_All_Employees">
+        <methods>
+          <include name="checkStatusLine"/>
+          <include name="setUp"/>
+          <include name="checkContentType"/>
+          <include name="tearDown"/>
+          <include name="getAllEmployees"/>
+          <include name="checkStatusCode"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC001_Get_All_Employees -->
+      <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
+        <methods>
+          <include name="setUp"/>
+          <include name="post_employee_record"/>
+          <include name="tearDown"/>
+          <include name="checkContentEncoding"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC003_Post_Employee_Record -->
+      <class name="com.employeeapi.testCases.TC002_Get_Single_Employee_Record">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkStatusLine"/>
+          <include name="checkStatusCode"/>
+          <include name="checkContentEncoding"/>
+          <include name="getSingleEmployeeRecord"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.employeeapi.testCases.TC002_Get_Single_Employee_Record -->
+    </classes>
+  </test> <!-- EmployeesRestAPISuite(failed) -->
+</suite> <!-- Failed suite [EmployeesRestAPISuite] -->

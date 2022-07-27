@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.059" tests="22" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="restAssuredV001_MavenProject"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/restAssuredV001_MavenProject/8/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\ProgramData\Jenkins\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="e194020e6ac39aac"/>
+    <property name="POM_ARTIFACTID" value="RestAssuredAPITesting"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="RegionCode" value="NA"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="RestAssuredAPITesting"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_301-b09"/>
+    <property name="WINSW_SERVICE_ID" value="jenkins"/>
+    <property name="user.name" value="LAPTOP-FQFQUEAH$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="OnlineServices" value="Online Services"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="restAssuredV001_MavenProject"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/restAssuredV001_MavenProject/8/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#8"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_301"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="USERNAME" value="LAPTOP-FQFQUEAH$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.6\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="CA"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_301\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="platformcode" value="KV"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/restAssuredV001_MavenProject/8/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/restAssuredV001_MavenProject/8/display/redirect?page=artifacts"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.301-b09"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/restAssuredV001_MavenProject/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_301"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="LAPTOP-FQFQUEAH"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="POM_GROUPID" value="RestAssuredAPITesting"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-restAssuredV001_MavenProject-8"/>
+    <property name="JENKINS_SERVER_COOKIE" value="e194020e6ac39aac"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_301\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.8.6/bin;C:\Program Files\Java\jdk1.8.0_301/bin;C:\Program Files\Java\jdk1.8.0_301/bin;C:\Python39\Scripts\;C:\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Mamta\AppData\Local\Android\Sdk\tools\bin;C:\Users\Mamta\AppData\Local\Android\Sdk\tools;C:\Users\Mamta\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files\Git\cmd;C:\Users\Mamta\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\apache-maven-3.8.6\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="ZES_ENABLE_SYSMAN" value="1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.6"/>
+    <property name="java.class.path" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.8.6/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.8.6 C:\ProgramData\Jenkins\war\WEB-INF\lib\remoting-4.13.2.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 56212"/>
+    <property name="VS160COMCOMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_301/bin;C:\Python39\Scripts\;C:\Python39\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Mamta\AppData\Local\Android\Sdk\tools\bin;C:\Users\Mamta\AppData\Local\Android\Sdk\tools;C:\Users\Mamta\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files\Git\cmd;C:\Users\Mamta\AppData\Roaming\Python\Python39\Scripts;;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\apache-maven-3.8.6\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_301/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 140 Stepping 1, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="NODE_HOME" value="C:\Program Files\nodejs"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\apache-maven-3.8.6"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="CI" value="true"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\ProgramData\Jenkins\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\apache-maven-3.8.6/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/restAssuredV001_MavenProject/8/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\Mamta\eclipse-workspace\RestAssuredAPITesting"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/restAssuredV001_MavenProject/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="C:\apache-maven-3.8.6"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="8"/>
+    <property name="BASE" value="C:\Program Files\Jenkins"/>
+    <property name="ANDROID_HOME" value="C:\Users\Mamta\AppData\Local\Android\Sdk"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="8c01"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\ProgramData\Jenkins\.jenkins\workspace\restAssuredV001_MavenProject@tmp"/>
+    <property name="WORKSPACE" value="C:\ProgramData\Jenkins\.jenkins\workspace\restAssuredV001_MavenProject"/>
+    <property name="ChocolateyInstall" value="C:\ProgramData\chocolatey"/>
+    <property name="maven3.interceptor.common" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase name="checkContentEncoding" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.003"/>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0.013"/>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0"/>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0"/>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC001_Get_All_Employees" time="0"/>
+  <testcase name="checkContentEncoding" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.009">
+    <failure message="expected [gzip] but found [null]" type="java.lang.AssertionError">java.lang.AssertionError: expected [gzip] but found [null]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkContentEncoding(TC002_Get_Single_Employee_Record.java:86)
+</failure>
+    <system-out><![CDATA[2022-07-27 08:55:33 INFO  EmployeesRestAPIssss:92 - ------------------------ Finished TC001_Get_All_Employees------------------
+2022-07-27 08:55:33 INFO  EmployeesRestAPIssss:18 - ------------------Started TC002_Get_Single_Employee_Record----------------
+2022-07-27 08:55:34 INFO  EmployeesRestAPIssss:83 - -------------------- Checking Content Encoding --------------------------
+2022-07-27 08:55:34 INFO  EmployeesRestAPIssss:85 - Content Encoding ===>null
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentLength" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.003"/>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.002"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.002"/>
+  <testcase name="checkResponseTime" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.002"/>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.001"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.001">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [404]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkStatusCode(TC002_Get_Single_Employee_Record.java:41)
+</failure>
+    <system-out><![CDATA[2022-07-27 08:55:34 INFO  EmployeesRestAPIssss:38 - -------------------- Checking Status Code --------------------------
+2022-07-27 08:55:34 INFO  EmployeesRestAPIssss:40 - Status Code ===>404
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC002_Get_Single_Employee_Record" time="0.002">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 404 Not Found]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.employeeapi.testCases.TC002_Get_Single_Employee_Record.checkStatusLine(TC002_Get_Single_Employee_Record.java:59)
+</failure>
+    <system-out><![CDATA[2022-07-27 08:55:34 INFO  EmployeesRestAPIssss:56 - -------------------- Checking Status Line --------------------------
+2022-07-27 08:55:34 INFO  EmployeesRestAPIssss:58 - Status Line ===>HTTP/1.1 404 Not Found
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentEncoding" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0.002"/>
+  <testcase name="checkContentLength" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0.002"/>
+  <testcase name="checkContentType" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0.002">
+    <failure message="expected [application/json] but found [text/html; charset=UTF-8]" type="java.lang.AssertionError">java.lang.AssertionError: expected [application/json] but found [text/html; charset=UTF-8]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentType(TC003_Post_Employee_Record.java:73)
+</failure>
+    <system-out><![CDATA[2022-07-27 08:55:34 INFO  EmployeesRestAPIssss:70 - -------------------- Checking Content Type --------------------------
+2022-07-27 08:55:34 INFO  EmployeesRestAPIssss:72 - Content Type ===>text/html; charset=UTF-8
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0.014"/>
+  <testcase name="checkServerType" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0">
+    <failure message="expected [200] but found [429]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [429]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:652)
+	at org.testng.Assert.assertEquals(Assert.java:662)
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusCode(TC003_Post_Employee_Record.java:55)
+</failure>
+    <system-out><![CDATA[2022-07-27 08:55:34 INFO  EmployeesRestAPIssss:52 - -------------------- Checking Status Code --------------------------
+2022-07-27 08:55:34 INFO  EmployeesRestAPIssss:54 - Status Code ===>429
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusLine" classname="com.employeeapi.testCases.TC003_Post_Employee_Record" time="0.001">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusLine(TC003_Post_Employee_Record.java:64)
+</failure>
+    <system-out><![CDATA[2022-07-27 08:55:34 INFO  EmployeesRestAPIssss:61 - -------------------- Checking Status Line --------------------------
+2022-07-27 08:55:34 INFO  EmployeesRestAPIssss:63 - Status Line ===>HTTP/1.1 429 Too Many Requests
+]]></system-out>
+  </testcase>
+</testsuite>
